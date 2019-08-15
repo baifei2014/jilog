@@ -1,0 +1,20 @@
+{
+    "name": "baifei2014/plog",
+    "description": "日志",
+    "type": "library",
+    "authors": [
+        {
+            "name": "JiangLongHao",
+            "email": "759395919@qq.com"
+        }
+    ],
+    "minimum-stability": "RC",
+    "autoload": {
+        "psr-4": { "JiLog\\": "src"  }
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "monolog/monolog": "1.*",
+        "illuminate/support": "^5.6"
+    }
+}
